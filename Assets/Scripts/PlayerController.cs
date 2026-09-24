@@ -67,10 +67,7 @@ public class PlayerController : MonoBehaviour
         Vector2 newSpeed = new Vector2(moveVector.y * currentMoveSpeed, moveVector.x * currentMoveSpeed);
 
         moveDirection = (forward * newSpeed.x) + (right * newSpeed.y);
-        if (jumped && characterController.isGrounded)
-            moveDirection.y = JumpForce;
-        else
-            moveDirection.y = oldY;
+        moveDirection.y = (jumped && characterController.isGrounded) ? JumpForce : oldY;
 
         if (!characterController.isGrounded)
             moveDirection.y -= Gravity * Time.deltaTime;
