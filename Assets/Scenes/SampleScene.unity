@@ -1033,7 +1033,7 @@ MonoBehaviour:
   lightOff: {fileID: 388359861}
   switchOn: {fileID: 854853138}
   switchOff: {fileID: 228147465}
-  toggle: 0
+  toggle: 1
   switchSound: {fileID: 0}
 --- !u!1 &237305657
 GameObject:
@@ -2919,10 +2919,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::lightswitch
   intIcon: {fileID: 0}
-  lightOn: {fileID: 0}
-  lightOff: {fileID: 0}
-  switchOn: {fileID: 0}
-  switchOff: {fileID: 0}
+  lightOn: {fileID: 949412193}
+  lightOff: {fileID: 388359861}
+  switchOn: {fileID: 854853138}
+  switchOff: {fileID: 228147465}
   toggle: 0
   switchSound: {fileID: 0}
 --- !u!1 &949412193
